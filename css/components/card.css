@@ -23,3 +23,11 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
+.card h3 {
+  margin: 12px 0 8px; /* space between title and paragraph */
+}
+
+.card p {
+  margin: 0;
+}
