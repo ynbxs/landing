@@ -7,7 +7,7 @@
   border: 1px solid rgb(230, 230, 230);
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* animate */
   will-change: transform, box-shadow;
-  cursor: pointer;ase, box-shadow 0.2s ease; /* smooth animation */
+  cursor: pointer;
 }
 
 .card:hover {
@@ -25,9 +25,11 @@ img {
 }
 
 .card h3 {
-  margin: 12px 0 8px; /* space between title and paragraph */
+  margin: 12px 0 8px;
+  min-height: 1.4em;
 }
 
 .card p {
   margin: 0;
+  min-height: 3.2em;
 }
